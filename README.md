@@ -1,6 +1,22 @@
-Author   : Sarfraz Ahmed (sarfraznawaz2005@gmail.com)  
-Twitter  : @sarfraznawaz  
-Blog     : http://sarfraznawaz.wordpress.com/  
+# PHPExeCool
+
+Yeah, executing PHP in cool way....
+
+## Todo
+- Save snippet as a file, so you can share snippet with team on develop server
+- PHP Profiler
+- GitHub GIST sync
+- Advance UI
+
+## Whats New
+- Double panel
+
+
+## Based on PHPExecute
+
+Author   : Sarfraz Ahmed (sarfraznawaz2005@gmail.com)
+Twitter  : @sarfraznawaz
+Blog     : http://sarfraznawaz.wordpress.com/
 LICENSE  : MIT
 ____________________________________________
 
@@ -17,7 +33,7 @@ PHPExecute is the fastest way to run/test/debug your PHP code. Here are some of 
  - Saving favorite code snippets
  - Adding useful classes
  - Easy to extend as per your needs
- 
+
 ____________________________________________
 Extending PHPExecute
 ____________________________________________
@@ -29,8 +45,8 @@ Usage Notes
 ____________________________________________
 
  - PHPExecute uses eval function to run the code. It is strongly recommended that you should use that tool for local testing only and not on production server due to security reasons. If you do, you use it on your own risk.
- 
+
  - In order to save snippets, PHPExecute uses localStorage feature which is available in latest browsers (and IE9+) only and also it can be around 5MB in size. This isn't that ideal of you are going to save a lot of snippets but you can always extend PHPExecute to add database support and save your snippets there or save them online using API of snipt.net or some other snippets site.
- 
+
  - The custom functions that can be used in PHPExecute can be found in includes/functions.php file. You can add any functions in that file that you want to use directly inside PHPExecute. The custom functions can also be seen in PHP Info > User Defined Functions.
 
